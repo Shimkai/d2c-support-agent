@@ -1,0 +1,6 @@
+import os
+
+OLLAMA_URL = os.getenv("OLLAMA_URL", "http://127.0.0.1:11434")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen2.5:7b")
+MAX_TOOL_ROUNDS = 3
+REQUEST_TIMEOUT_SECONDS = 90
